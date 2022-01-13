@@ -1,5 +1,5 @@
 {
-  "css.validate": true,
+  "css.validate": false,
   "editor.codeActionsOnSave": {
     "addMissingImports": true,
     "source.fixAll": true,
