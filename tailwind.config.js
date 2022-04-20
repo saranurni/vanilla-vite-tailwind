@@ -1,6 +1,6 @@
 module.exports = {
   // TODO: Update this to reflect wherer you need to load Tailwind CSS from
-  content: ["./index.js"],
+  content: ["./src/index.js"],
   theme: {
     extend: {},
   },
