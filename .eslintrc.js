@@ -8,5 +8,7 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "new-cap": "off",
+  },
 };
