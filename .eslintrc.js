@@ -10,5 +10,6 @@ module.exports = {
   },
   rules: {
     "new-cap": "off",
+    "no-unused-vars": "warn",
   },
 };
