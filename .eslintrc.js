@@ -9,6 +9,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "capitalized-comments": "off",
     "new-cap": "off",
     "no-unused-vars": "warn",
   },
