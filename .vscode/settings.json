@@ -3,7 +3,7 @@
   "editor.codeActionsOnSave": {
     "addMissingImports": true,
     "source.fixAll": true,
-        "source.sortImports": true
+    "source.organizeImports": true
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -15,6 +15,7 @@
   "files.trimTrailingWhitespace": true,
   "javascript.inlayHints.parameterNames.enabled": "literals",
   "javascript.suggest.classMemberSnippets.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "prettier.requireConfig": true,
   "workbench.view.alwaysShowHeaderActions": true
