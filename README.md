@@ -1,5 +1,7 @@
 # Vite + TailwindCSS (no framework)
 
+**Update:** A `pnpm-lock.yaml` file was added to the root of the project. If possible use `pnpm` over `npm`. You might like it better. See [the docs 📝](https://pnpm.io/motivation) if interested. If not, delete this file.
+
 `npm start` will...start the `localhost:3000` server.
 
 See the `// TODO` in [`tailwind.config.js`](./tailwind.config.js).
