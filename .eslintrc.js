@@ -1,11 +1,10 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2022: true,
   },
   extends: ["xo", "prettier"],
   parserOptions: {
-    ecmaVersion: 13,
     sourceType: "module",
   },
   rules: {
