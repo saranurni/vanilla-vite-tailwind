@@ -8,12 +8,88 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Vite ➕ Tailwind</title>
   </head>
-  <body>
+  <body class="background-color: bg-red-600">
     <h1
-      class="text-center text-3xl font-semibold text-red-500 transition-all md:text-5xl"
+      class="padding-20px py-50 w-6 border-spacing-1 border border-b bg-pink-300 px-80 text-center text-4xl font-bold text-purple-900 md:text-5xl"
     >
-      Hello
+      Sara Nurestani
     </h1>
+
+    <section>
+      <h2 class="margin-8 text-center text-2xl font-semibold text-pink-300">
+        "Knowledge is Power"
+      </h2>
+    </section>
+
+    <nav>
+      <ul
+        class="border-width:thick; border: solid; rounded border to-blue-200 text-center text-2xl font-semibold"
+      >
+        <li>
+          <a href="#Education"> Education </a>
+        </li>
+        <li>
+          <a href="Hobbies and Interests"> Hobbies and Interests</a>
+        </li>
+        <li>
+          <a href="Favourite Shows"> Favourite Shows</a>
+        </li>
+        <li>
+          <a href="Socials"> Socials</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section
+      class="text-center text-2xl font-semibold text-pink-300"
+      id="Education"
+    >
+      <p>Education:</p>
+      BSc Economics, <em>Royal Holloway University of London</em>
+    </section>
+
+    <section
+      class="font- semibold text-center text-2xl text-pink-300"
+      id="Hobbies and Interests"
+    >
+      <p>Hobbies and Interests:</p>
+      <ul class="list-inside list-disc border text-center">
+        <li>Boxing</li>
+        <li>Swimming</li>
+        <li>Cooking</li>
+      </ul>
+    </section>
+
+    <section class="font- semibold border text-center text-2xl text-pink-300">
+      <p>Favourite Shows</p>
+      <ul class="text-x1 text-center">
+        <li>The Handmaid's Tale</li>
+        <li>Friends</li>
+        <li>Bridgerton</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/saranurestani/"> </a>
+    </footer>
+
+    <section class="text-center text-2xl font-semibold text-pink-300">
+      Socials
+    </section>
+
+    <section>
+      <figure>
+        <h2 class="text-x1 text-pink-300">Also love sunsets!</h2>
+        <img
+          src="images/sunset.jpg"
+          alt="sunset"
+          width="500"
+          height="200"
+          align-center
+        />
+        <figcaption>Sunset image</figcaption>
+      </figure>
+    </section>
 
     <script type="module" src="./src/index.js"></script>
   </body>
