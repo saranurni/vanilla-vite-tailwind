@@ -8,88 +8,103 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Vite ➕ Tailwind</title>
   </head>
-  <body class="background-color: bg-red-600">
+  <body class="background-color: bg-blue-800">
     <h1
-      class="padding-20px py-50 w-6 border-spacing-1 border border-b bg-pink-300 px-80 text-center text-4xl font-bold text-purple-900 md:text-5xl"
+      class="border bg-pink-300 text-center text-4xl font-bold text-purple-900 md:text-5xl"
     >
       Sara Nurestani
+      <section>
+        <br />
+        <div class="text-xl text-purple-500">
+          Here is my attempt at using Tailwind to create my bio! I'm 22,
+          originally from Afghanistan, born in Holland and live in London :)
+        </div>
+      </section>
     </h1>
-
+    <br />
+    <br />
     <section>
       <h2 class="margin-8 text-center text-2xl font-semibold text-pink-300">
         "Knowledge is Power"
       </h2>
     </section>
-
+    <br />
+    <br />
+    <br />
     <nav>
       <ul
-        class="border-width:thick; border: solid; rounded border to-blue-200 text-center text-2xl font-semibold"
+        class="rounded border-4 to-blue-200 text-center text-2xl font-semibold text-pink-300"
       >
-        <li>
-          <a href="#Education"> Education </a>
-        </li>
-        <li>
-          <a href="Hobbies and Interests"> Hobbies and Interests</a>
-        </li>
-        <li>
-          <a href="Favourite Shows"> Favourite Shows</a>
-        </li>
-        <li>
-          <a href="Socials"> Socials</a>
-        </li>
+        <a href="Education"> Education </a>
+        <a href="Hobbies and Interests"> Hobbies and Interests</a>
+        <a href="Favourite Shows"> Favourite Shows</a>
+        <a href="Socials"> Socials</a>
       </ul>
     </nav>
-
+    <br />
+    <br />
+    <br />
     <section
-      class="text-center text-2xl font-semibold text-pink-300"
+      class="justify-content align-items box-sizing h-30 box-center w-80 rounded border-2 bg-purple-800 p-4 text-center text-2xl font-semibold text-pink-300"
       id="Education"
     >
       <p>Education:</p>
-      BSc Economics, <em>Royal Holloway University of London</em>
+      <div class="text-xl">
+        BSc Economics, <em>Royal Holloway University of London</em>
+      </div>
     </section>
-
+    <br />
+    <br />
+    <br />
     <section
-      class="font- semibold text-center text-2xl text-pink-300"
+      class="box-sizing h-30 box-border w-80 rounded border-2 bg-purple-800 text-center text-2xl font-semibold text-pink-300"
       id="Hobbies and Interests"
     >
       <p>Hobbies and Interests:</p>
-      <ul class="list-inside list-disc border text-center">
+      <ul class="list-inside list-disc text-center text-xl">
         <li>Boxing</li>
         <li>Swimming</li>
         <li>Cooking</li>
       </ul>
     </section>
-
-    <section class="font- semibold border text-center text-2xl text-pink-300">
-      <p>Favourite Shows</p>
-      <ul class="text-x1 text-center">
+    <br />
+    <br />
+    <br />
+    <section
+      class="box-sizing h-30 box-border w-80 rounded border-2 bg-purple-800 text-center text-2xl font-semibold text-pink-300"
+    >
+      <p>Favourite Shows:</p>
+      <ul class="text-center text-xl">
         <li>The Handmaid's Tale</li>
         <li>Friends</li>
         <li>Bridgerton</li>
       </ul>
     </section>
-
-    <footer>
-      <a href="https://www.linkedin.com/in/saranurestani/"> </a>
-    </footer>
-
-    <section class="text-center text-2xl font-semibold text-pink-300">
-      Socials
-    </section>
+    <br />
+    <br />
+    <br />
 
     <section>
-      <figure>
-        <h2 class="text-x1 text-pink-300">Also love sunsets!</h2>
-        <img
-          src="images/sunset.jpg"
-          alt="sunset"
-          width="500"
-          height="200"
-          align-center
-        />
-        <figcaption>Sunset image</figcaption>
-      </figure>
+      <h2
+        class="box-sizing h-30 box-border w-80 rounded border-2 bg-purple-800 text-center text-xl font-semibold text-pink-300"
+      >
+        Also love sunsets!
+        <figure>
+          <img src="images/sunset.jpg" alt="sunset" width="500" height="200" />
+          <figcaption></figcaption>
+        </figure>
+      </h2>
     </section>
+    <br />
+    <br />
+    <br />
+    <footer
+      class="box-sizing h-30 w-100 box-border rounded border-2 bg-purple-800 text-center text-2xl font-semibold text-pink-300"
+    >
+      <p>Socials</p>
+
+      <a href="https://www.linkedin.com/in/saranurestani/">LinkedIn</a>
+    </footer>
 
     <script type="module" src="./src/index.js"></script>
   </body>
